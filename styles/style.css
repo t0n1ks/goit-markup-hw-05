@@ -209,7 +209,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .title{ 
 width: 496px;
-font-weight: 700;
+font-weight: 800; /*--fix deplo 700 tru---*/
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
