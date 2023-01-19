@@ -208,13 +208,13 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .title{ 
-margin-left: 317px;
 width: 496px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+margin: 0 auto;
 }
 
 .textbutton{
@@ -568,7 +568,8 @@ color: #E7E9FC;
 }
 
 .filters{
-    padding-top: 96px; ;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .button-text{
@@ -612,7 +613,6 @@ line-height: 1.5;
 /*-------MAIN CONTENT PORTFOLIO--------*/
 
 .portfolio-content{
-    padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
@@ -713,6 +713,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px;
 }
 
 .backdrop.is-hidden .modal{
@@ -722,12 +723,15 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-close{
     width: 24px;
     height: 24px;
-    position: absolute;
+    /*position: absolute;
     right: 24px;
-    top: 24px;
+    top: 24px;*/
     background-color: rgba(231, 233, 252, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    margin-left: auto;
     display: flex;
     align-items: center;
     justify-content: center;
